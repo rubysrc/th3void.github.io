@@ -1,0 +1,55 @@
+/* Body background */
+.page {
+	background-color: #222;
+	margin: 0 auto;
+	font-family: Arial;
+	font-size: 30px;
+}
+
+/* Header of content */
+.header{
+	background-color: #333;
+	padding: 20px 10% 20px 10%;
+}
+
+.header_title{
+	color: greenyellow;
+	text-align: center;
+}
+
+.header_text{
+	color: white;
+}
+
+/*Any images*/
+.image{
+	padding-left: 10%;
+	padding-right: 10%;
+	min-height: 100px;
+	max-height: 700px;
+}
+
+/*Articles title*/
+.titile{
+	padding-left: 10%;
+	padding-right: 10%;
+	color: greenyellow;
+}
+
+/*subtitle*/
+.subtitle{
+	padding-left: 10%;
+	padding-right: 10%;
+	color: greenyellow;
+}
+
+.text{
+	padding-left: 10%;
+	padding-right: 10%;
+	color: white;
+	text-align: justify;
+}
+
+.footer{
+	color: white;
+}
