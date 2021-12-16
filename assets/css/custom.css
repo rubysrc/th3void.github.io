@@ -3,10 +3,28 @@
     width: 100%;
 }
 
+.nav-content {
+    background-color: #413384;
+}
+
+.nav-col{
+    padding-bottom: 20px;
+}
+
+.hd-top{
+    
+}
+
+.bg-semi-black{
+    
+}
 
 @media only screen and (max-width: 1000px) {
     .hd-top {
         margin-top: 200px !important;
+        background: rgba(21, 0, 80, 0.8) !important;
+        padding: 10px;
+        border-radius: 10px;
     }
 
     .card {
@@ -15,6 +33,11 @@
     
     .quote-panel {
         margin-top: 10px !important;
+        padding: 5em !important;
+    }
+    .quote-img{
+        margin-bottom: -150px;
+        min-height: 200px;
     }
 
     .chart-per {
