@@ -29,6 +29,29 @@
   opacity: 0.8;
 }
 
+/* GERVÁSIO */
+.footer-dark #plutus-paragraph {
+  font-size: 14px;
+  margin-top: 8px;
+  margin-bottom: 36px;
+}
+
+.footer-dark a {
+  text-decoration: none;
+}
+
+.footer-dark .social-links i.fa {
+  color: #3FC1FB;
+}
+
+#copyright-container {
+  height: 70px;
+  background: #5A39C8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width:767px) {
   .footer-dark .item:not(.social) {
     text-align: center;
