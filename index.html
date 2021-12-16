@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/Effective-Pricing-Cards.css">
     <link rel="stylesheet" href="assets/css/Footer-Dark.css">
     <link rel="stylesheet" href="assets/css/Header-Blue.css">
@@ -23,13 +24,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/css/pikaday.min.css">
+    <link rel="stylesheet" href="assets/css/Navigation-with-Button.css">
     <link rel="stylesheet" href="assets/css/Team-Boxed.css">
 </head>
 
-<body>
+<body style="font-family: 'Source Sans Pro', sans-serif;">
+    <!-- Start: Navigation with Button -->
+    <nav class="navbar navbar-light navbar-expand-lg sticky-top navigation-clean-button" style="background: rgba(255,255,255,0);">
+        <div class="container"><a class="navbar-brand" href="#"><img src="assets/img/logo-plutusfi-3.png" style="width: 50px;height: 100%;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse d-xxl-flex" id="navcol-1">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#" style="color: rgb(255,255,255);font-weight: bold;">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#" style="color: rgb(255,255,255);font-weight: bold;">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#" style="color: rgb(255,255,255);font-weight: bold;">SERVICES</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#" style="color: rgb(255,255,255);font-weight: bold;">PARTNERS</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#" style="color: rgb(255,255,255);font-weight: bold;">PRICING</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#" style="color: rgb(255,255,255);font-weight: bold;">TEAM</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#" style="color: rgb(255,255,255);font-weight: bold;">TOKENIZATION</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#" style="color: rgb(255,255,255);font-weight: bold;">ROADMAP</a></li>
+                    <li class="nav-item"><a class="nav-link active d-xxl-flex" href="#" style="color: rgb(255,255,255);font-weight: bold;">CONTACT</a></li>
+                </ul><span class="navbar-text actions"> <a class="btn btn-light d-xxl-flex justify-content-xxl-center align-items-xxl-center action-button" role="button" href="#" style="background: rgba(86,198,198,0);border-radius: 5px;border: 1px solid rgb(255,255,255);font-weight: bold;width: 150px;height: 30px;"><i class="fa fa-user"></i>&nbsp;LOGIN</a></span>
+            </div>
+        </div>
+    </nav><!-- End: Navigation with Button -->
     <!-- Start: HEADER -->
     <header class="header-blue" style="background: url(&quot;assets/img/Rectangle%201.png&quot;) right / cover no-repeat, #400A85;width: 100%;min-height: 900px;">
-        <div class="container hero">
+        <div class="container hero" style="margin-top: 0;">
             <div class="row">
                 <!-- Start: Text -->
                 <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
@@ -236,29 +256,51 @@
                 <div class="col-md-6 col-lg-4 justify-content-center item" style="height: 600px;">
                     <div class="justify-content-center align-self-center box" style="height: 560px;">
                         <h2 class="text-center" style="color: #5A39C8;margin-bottom: 0;padding-top: 10px;font-size: 25px;">FREE</h2>
-                        <h2 class="text-center" style="color: #27C0FC;padding-top: 20px;">$ 0,00</h2>
+                        <h2 class="text-center" style="color: #27C0FC;padding-top: 20px;"><i class="fa fa-dollar"></i>&nbsp;0,00</h2>
                         <div style="border-bottom: 2px solid #27C0FC;max-width: none;"></div><!-- Start: CONTENT -->
                         <div style="height: 220px;">
-                            <p class="description" style="text-align: left;margin-bottom: 10px;margin-left: 40px;">Free Setup</p>
-                            <p class="description" style="text-align: left;margin-bottom: 10px;margin-left: 40px;">All features</p>
-                            <p class="description" style="text-align: left;margin-bottom: 10px;margin-left: 40px;">VIP Direct Support</p>
-                            <p class="description" style="text-align: left;margin-bottom: 10px;margin-left: 40px;">Experts Guidance</p>
-                            <p class="description" style="text-align: left;margin-bottom: 10px;margin-left: 40px;">30-Days License</p>
+                            <div class="d-xxl-flex justify-content-xxl-start align-items-xxl-center" style="margin: 20px;"><i class="fa fa-check" style="color: #27C0FC;"></i>
+                                <p class="d-xxl-flex align-items-xxl-center description" style="text-align: left;margin-bottom: 0;margin-left: 30px;margin-top: 0;">Free Setup</p>
+                            </div>
+                            <div class="d-xxl-flex justify-content-xxl-start align-items-xxl-center" style="margin: 20px;"><i class="fa fa-check" style="color: #27C0FC;"></i>
+                                <p class="d-xxl-flex align-items-xxl-center description" style="text-align: left;margin-bottom: 0;margin-left: 30px;margin-top: 0;">All features</p>
+                            </div>
+                            <div class="d-xxl-flex justify-content-xxl-start align-items-xxl-center" style="margin: 20px;"><i class="fa fa-check" style="color: #27C0FC;"></i>
+                                <p class="d-xxl-flex align-items-xxl-center description" style="text-align: left;margin-bottom: 0;margin-left: 30px;margin-top: 0;">VIP Direct Support</p>
+                            </div>
+                            <div class="d-xxl-flex justify-content-xxl-start align-items-xxl-center" style="margin: 20px;"><i class="fa fa-check" style="color: #27C0FC;"></i>
+                                <p class="d-xxl-flex align-items-xxl-center description" style="text-align: left;margin-bottom: 0;margin-left: 30px;margin-top: 0;">Experts Guidance</p>
+                            </div>
+                            <div class="d-xxl-flex justify-content-xxl-start align-items-xxl-center" style="margin: 20px;"><i class="fa fa-check" style="color: #27C0FC;"></i>
+                                <p class="d-xxl-flex align-items-xxl-center description" style="text-align: left;margin-bottom: 0;margin-left: 30px;margin-top: 0;">30-Days License</p>
+                            </div>
                         </div><!-- End: CONTENT --><button class="btn btn-primary" type="button" style="margin-top: 60px;background: rgba(255,255,255,0);color: #5A39C8;border-radius: 10px;width: 200px;border-width: 2px;border-color: #5A39C8;padding: 4px;font-weight: bold;">PURCHASE</button>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 justify-content-center item">
+                <div class="col-md-6 col-lg-4 justify-content-center item" style="height: 600px;">
                     <div class="justify-content-center align-self-center box" style="height: 560px;">
                         <h2 class="text-center" style="color: #5A39C8;margin-bottom: 0;padding-top: 10px;font-size: 25px;">STANDARD</h2>
-                        <h2 class="text-center" style="color: #27C0FC;padding-top: 20px;">$ TBA</h2>
+                        <h2 class="text-center" style="color: #27C0FC;padding-top: 20px;"><i class="fa fa-dollar"></i>&nbsp;TBA</h2>
                         <div style="border-bottom: 2px solid #27C0FC;max-width: none;"></div><!-- Start: CONTENT -->
                         <div style="height: 220px;">
-                            <p class="description" style="text-align: left;margin-bottom: 10px;margin-left: 40px;">Free Setup</p>
-                            <p class="description" style="text-align: left;margin-bottom: 10px;margin-left: 40px;">All features</p>
-                            <p class="description" style="text-align: left;margin-bottom: 10px;margin-left: 40px;">VIP Direct Support</p>
-                            <p class="description" style="text-align: left;margin-bottom: 10px;margin-left: 40px;">Experts Guidance</p>
-                            <p class="description" style="text-align: left;margin-bottom: 10px;margin-left: 40px;">Unlimited Access</p>
-                            <p class="description" style="text-align: left;margin-bottom: 10px;margin-left: 40px;">Custom-built Solutions</p>
+                            <div class="d-xxl-flex justify-content-xxl-start align-items-xxl-center" style="margin: 20px;"><i class="fa fa-check" style="color: #27C0FC;"></i>
+                                <p class="d-xxl-flex align-items-xxl-center description" style="text-align: left;margin-bottom: 0;margin-left: 30px;margin-top: 0;">Free Setup</p>
+                            </div>
+                            <div class="d-xxl-flex justify-content-xxl-start align-items-xxl-center" style="margin: 20px;"><i class="fa fa-check" style="color: #27C0FC;"></i>
+                                <p class="d-xxl-flex align-items-xxl-center description" style="text-align: left;margin-bottom: 0;margin-left: 30px;margin-top: 0;">All features</p>
+                            </div>
+                            <div class="d-xxl-flex justify-content-xxl-start align-items-xxl-center" style="margin: 20px;"><i class="fa fa-check" style="color: #27C0FC;"></i>
+                                <p class="d-xxl-flex align-items-xxl-center description" style="text-align: left;margin-bottom: 0;margin-left: 30px;margin-top: 0;">VIP Direct Support</p>
+                            </div>
+                            <div class="d-xxl-flex justify-content-xxl-start align-items-xxl-center" style="margin: 20px;"><i class="fa fa-check" style="color: #27C0FC;"></i>
+                                <p class="d-xxl-flex align-items-xxl-center description" style="text-align: left;margin-bottom: 0;margin-left: 30px;margin-top: 0;">Experts Guidance</p>
+                            </div>
+                            <div class="d-xxl-flex justify-content-xxl-start align-items-xxl-center" style="margin: 20px;"><i class="fa fa-check" style="color: #27C0FC;"></i>
+                                <p class="d-xxl-flex align-items-xxl-center description" style="text-align: left;margin-bottom: 0;margin-left: 30px;margin-top: 0;">Unlimited Access</p>
+                            </div>
+                            <div class="d-xxl-flex justify-content-xxl-start align-items-xxl-center" style="margin: 20px;"><i class="fa fa-check" style="color: #27C0FC;"></i>
+                                <p class="d-xxl-flex align-items-xxl-center description" style="text-align: left;margin-bottom: 0;margin-left: 30px;margin-top: 0;">Custom-built Solutions</p>
+                            </div>
                         </div><!-- End: CONTENT --><button class="btn btn-primary" type="button" style="margin-top: 60px;background: #5A39C8;color: #ffffff;border-radius: 10px;width: 200px;border-width: 2px;border-color: #5A39C8;padding: 4px;font-weight: bold;">PURCHASE</button>
                     </div>
                 </div>
@@ -269,7 +311,7 @@
     <section class="team-boxed" style="background: rgba(238,244,247,0);">
         <!-- Start: TESTIMONIAL -->
         <section class="highlight-blue" style="background: url(&quot;assets/img/Rectangle%20163@2x.png&quot;) center / cover no-repeat;padding: 30px;min-height: 300px;">
-            <div class="container"></div>
+            <div class="container"><i class="fa fa-star" style="font-size: 60px;"></i></div>
         </section><!-- End: TESTIMONIAL -->
         <div class="container">
             <!-- Start: Intro -->
@@ -451,9 +493,9 @@
                     <div style="text-align: center;"><button class="btn btn-danger btn-lg action-button" type="button" style="background: #27C0FC;font-weight: bold;border-radius: 3px;border-style: none;margin: 0;width: 100%;">WHITEPAPER</button></div>
                 </div>
                 <div class="col-md-3" style="padding: 3em;">
-                    <p><a href="#" style="font-size: 14px;border-bottom-style: none;color: rgb(195,231,255);">➤ ABOUT US</a></p>
-                    <p style="font-size: 14px;"><a href="#" style="font-size: 14px;border-bottom-style: none;color: rgb(195,231,255);">➤ CAREERS/JOBS</a></p>
-                    <p style="font-size: 14px;"><a href="#" style="font-size: 14px;border-bottom-style: none;color: rgb(195,231,255);">➤ PRESS KIT</a></p>
+                    <p><a href="#" style="font-size: 14px;color: rgb(195,231,255);border-style: none;border-bottom-style: none;"><i class="fa fa-chevron-right"></i> ABOUT US</a></p>
+                    <p style="font-size: 14px;"><a href="#" style="font-size: 14px;border-bottom-style: none;color: rgb(195,231,255);"><i class="fa fa-chevron-right"></i>&nbsp;CAREERS/JOBS</a></p>
+                    <p style="font-size: 14px;"><a href="#" style="font-size: 14px;border-bottom-style: none;color: rgb(195,231,255);"><i class="fa fa-chevron-right"></i>&nbsp;PRESS KIT</a></p>
                 </div>
                 <div class="col-md-3" style="padding: 3em;">
                     <p><a href="#" style="font-size: 14px;border-bottom-style: none;color: rgb(195,231,255);">Privacy Policy</a></p>
@@ -462,10 +504,10 @@
                     <p style="font-size: 14px;"><a href="#" style="font-size: 14px;border-bottom-style: none;color: rgb(195,231,255);">Talk to Sales</a></p>
                 </div>
                 <div class="col-md-3" style="padding: 3em;">
-                    <p style="font-size: 14px;"><img src="assets/img/twitter-brands.svg" style="filter: brightness(200%) grayscale(24%) hue-rotate(79deg) invert(89%) saturate(182%);width: 16px;height: 16px;margin-right: 5px;"><a href="#" style="font-size: 14px;color: rgb(195,231,255);border-bottom-style: none;">Twiter</a></p>
-                    <p style="font-size: 14px;border-bottom-style: none;"><img src="assets/img/twitter-brands.svg" style="filter: brightness(200%) grayscale(24%) hue-rotate(79deg) invert(89%) saturate(182%);width: 16px;height: 16px;margin-right: 5px;border-bottom-style: none;"><a href="#" style="font-size: 14px;color: rgb(195,231,255);border-bottom-style: none;">Telegram</a></p>
-                    <p style="font-size: 14px;border-bottom-style: none;"><img src="assets/img/twitter-brands.svg" style="filter: brightness(200%) grayscale(24%) hue-rotate(79deg) invert(89%) saturate(182%);width: 16px;height: 16px;margin-right: 5px;border-bottom-style: none;"><a href="#" style="font-size: 14px;color: rgb(195,231,255);border-bottom-style: none;">Facebook</a></p>
-                    <p style="font-size: 14px;border-bottom-style: none;"><img src="assets/img/twitter-brands.svg" style="filter: brightness(200%) grayscale(24%) hue-rotate(79deg) invert(89%) saturate(182%);width: 16px;height: 16px;margin-right: 5px;border-bottom-style: none;"><a href="#" style="font-size: 14px;color: rgb(195,231,255);border-bottom-style: none;">Instagram</a></p>
+                    <p style="font-size: 14px;"><a href="#" style="font-size: 14px;color: rgb(195,231,255);border-bottom-style: none;"><i class="fa fa-twitter" style="margin-right: 10px;min-width: 15px;"></i>&nbsp;Twiter</a></p>
+                    <p style="font-size: 14px;border-bottom-style: none;"><a href="#" style="font-size: 14px;color: rgb(195,231,255);border-bottom-style: none;"><i class="fa fa-telegram" style="margin-right: 10px;min-width: 15px;"></i>&nbsp;Telegram</a></p>
+                    <p style="font-size: 14px;border-bottom-style: none;"><a href="#" style="font-size: 14px;color: rgb(195,231,255);border-bottom-style: none;"><i class="fa fa-facebook" style="margin-right: 10px;min-width: 15px;"></i>&nbsp;Facebook</a></p>
+                    <p style="font-size: 14px;border-bottom-style: none;"><a href="#" style="font-size: 14px;color: rgb(195,231,255);border-bottom-style: none;"><i class="fa fa-instagram" style="margin-right: 10px;min-width: 15px;"></i>&nbsp;Instagram</a></p>
                 </div>
             </div>
         </div><!-- End: 1 Row 4 Columns -->
