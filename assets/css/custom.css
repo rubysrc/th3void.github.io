@@ -21,15 +21,24 @@
         min-height: 300px !important;
     }
 
+    .team-boxed {
+        margin-top: 80px;
+    }
+
   }
 
   @media only screen and (max-width: 770px) {
     .pe-sec {
-        min-height: 1500px;
-     }
- 
-     .pe-sec-card {
-        margin-bottom: 30px;
+        min-height: 1600px;
+    }
+    
+    .pe-container {
+        margin-bottom: 100px;
+    }
+
+    .pe-sec-card {
+        min-width: 300px;
+        max-width: 350px;
     }
  
     .chart-per {
