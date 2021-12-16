@@ -12,7 +12,15 @@
 /* GERVÁSIO */
 #login-button-top a:hover {
   color: #6c5ce7 !important;
+}
+
+#header-nav {
+  /* background: url('../img/Rectangle%201.png') top / cover, rgb(92,5,149); */
   background-color: transparent;
+  /* background: linear-gradient(55deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%); */
+  height: 80px;
+  margin-bottom: -80px;
+  width: 100%;
 }
 
 @media (min-width:768px) {

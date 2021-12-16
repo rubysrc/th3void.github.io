@@ -32,7 +32,7 @@
 
 <body style="font-family: Raleway, sans-serif;">
     <!-- Start: Navigation with Button -->
-    <nav class="navbar navbar-light navbar-expand-lg sticky-top navigation-clean-button" style="background: url(&quot;assets/img/Rectangle%201.png&quot;) top / cover, rgb(92,5,149);height: 80px;margin-bottom: -80px;width: 100%;">
+    <nav id="header-nav" class="navbar navbar-light navbar-expand-lg sticky-top navigation-clean-button">
         <div class="container"><a class="navbar-brand" href="#"><img src="assets/img/logo-plutusfi-3.png" style="width: 50px;height: 100%;"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse d-xxl-flex" id="navcol-1">
                 <ul class="navbar-nav me-auto">
@@ -588,6 +588,16 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="assets/js/theme.js"></script>
+    <script>
+        const header = document.querySelector('#header-nav')
+        window.addEventListener('scroll', () => {
+            if (window.scrollY < 10) {
+                header.style.backgroundColor = 'transparent';
+            } else {
+                header.style.backgroundColor = '#413384';
+            }
+        })
+    </script>
 </body>
 
 </html>
