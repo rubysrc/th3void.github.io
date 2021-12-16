@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1000px) {
+    .hd-top {
+        margin-top: 200px !important;
+    }
+
+    .card {
+        min-width: 300px !important;
+    }
+    
+    .quote-panel {
+        margin-top: 10px !important;
+    }
+
+    .chart-per {
+        min-height: 300px !important;
+    }
+
+  }
+
+  @media only screen and (max-width: 770px) {
+    .pe-sec {
+        min-height: 1500px;
+     }
+ 
+     .pe-sec-card {
+        margin-bottom: 30px;
+    }
+ 
+    .chart-per {
+        min-height: 500px !important;
+    }
+
+  }
