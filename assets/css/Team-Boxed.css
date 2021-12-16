@@ -19,6 +19,15 @@
   height: 295px !important;
 }
 
+#carousel-testimonials {
+  /* background-color: red; */
+  padding: 30px;
+  /* min-height: 300px; */
+  height: 200px;
+  background: url('../img/Rectangle%20163@2x.png') center / cover no-repeat;
+}
+/* style="" */
+
 @media (max-width:767px) {
   .team-boxed h2 {
     margin-bottom: 25px;
