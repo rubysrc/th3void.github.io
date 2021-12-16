@@ -19,14 +19,33 @@
   height: 295px !important;
 }
 
-#carousel-testimonials {
-  /* background-color: red; */
-  padding: 30px;
-  /* min-height: 300px; */
-  height: 200px;
+#carousel-testimonials-section {
   background: url('../img/Rectangle%20163@2x.png') center / cover no-repeat;
 }
-/* style="" */
+
+#carousel-testimonials-section .description,
+#carousel-testimonials-section h5 {
+  color: #fff;
+  font-style: italic;
+}
+
+#carousel-testimonials-section h5 {
+  font-weight: bold;
+}
+
+#carousel-testimonials-controls {
+  padding: 20px 0;
+}
+
+.carousel-inner {
+  margin: 0;
+  padding: 20px 0;
+}
+
+.carousel-item {
+  text-align: center;
+  padding: 0 20%;
+}
 
 @media (max-width:767px) {
   .team-boxed h2 {
