@@ -15,12 +15,34 @@
     
 }
 
+.card-fmt{
+    max-width: 400px;
+}
+
+.start-content {
+    text-align: left !important;
+    height: 360px;
+}
+@media only screen and (min-width: 1400px) {
+    .start-content {
+        height: 280px;
+    }
+}
+
 @media only screen and (max-width: 1000px) {
+
+    .card-fmt{
+        max-width: 250px;
+    }
     .hd-top {
         margin-top: 200px !important;
         background: rgba(21, 0, 80, 0.8) !important;
         padding: 10px;
         border-radius: 10px;
+    }
+
+    .start-content {
+        height: 360px;
     }
 
     .card {
@@ -29,7 +51,7 @@
     
     .quote-panel {
         margin-top: 10px !important;
-        padding: 5em !important;
+        padding: 1em;
     }
     .quote-img{
         margin-bottom: -150px;
