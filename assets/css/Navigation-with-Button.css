@@ -10,6 +10,12 @@
 }
 
 /* GERVÁSIO */
+.navigation-clean-button .navbar-toggler {
+  border-color: #fff !important;
+  border-width: 2px;
+  color: #fff !important;
+}
+
 #login-button-top a:hover {
   color: #6c5ce7 !important;
 }
