@@ -13,8 +13,9 @@
 }
 
 .card-fmt{
-    max-width: 400px;
+    max-width: 300px !important;
 }
+
 
 .start-content {
     text-align: left !important;
