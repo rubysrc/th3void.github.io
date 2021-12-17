@@ -22,7 +22,7 @@
 
 
 .start-content {
-    text-align: left !important;
+    text-align  : left !important;
     height: 360px;
 }
 @media only screen and (min-width: 1400px) {
@@ -52,8 +52,10 @@
     }
     
     .quote-panel {
-        margin-top: 10px !important;
+        margin: 0 auto;
         padding: 1em;
+        align-items: center;
+        display: flex;
     }
     .quote-img{
         margin-bottom: -150px;
@@ -78,6 +80,8 @@
     
     .pe-container {
         margin-bottom: 100px;
+        align-items: center;
+        display: flex;
     }
 
     .pe-sec-card {
