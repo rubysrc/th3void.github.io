@@ -11,6 +11,10 @@
 .bg-semi-black{
     
 }
+.chart-col {
+    min-height: 150px;
+    min-width: 200px;
+}
 
 .card-fmt{
     max-width: 300px !important;
