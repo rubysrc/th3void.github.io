@@ -63,13 +63,16 @@
             font-size: 14px;
         }
         @media screen and (max-width: 968px) {
-            #nav-content .navbar-collapse {
-                background: rgba(65, 51, 132, 0.9);
-            }
             #partners-container {
                 display: flex;
                 flex-direction: column;
                 align-items: center;
+            }
+        }
+        @media screen and (max-width: 1285px) {
+            #nav-content .navbar-collapse {
+                background: rgba(65, 51, 132, 0.9);
+                padding: 12px;
             }
         }
     </style>
@@ -77,7 +80,7 @@
 
 <body style="font-family: Raleway, sans-serif;">
     <!-- Start: Navigation with Button -->
-    <nav id="header-nav" class="navbar navbar-dark navbar-expand-lg sticky-top navigation-clean-button">
+    <nav id="header-nav" class="navbar navbar-dark navbar-expand-xl sticky-top navigation-clean-button">
         <div class="container nav-content" id="nav-content">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/logo-plutusfi-3.png" style="width: 50px;height: 100%;">
@@ -87,7 +90,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse d-xxl-flex nav-col" id="navcol-1">
-                <ul class="navbar-nav me-auto">
+                <ul id="menu-top-ul" class="navbar-nav me-auto">
                     <li class="nav-item"><a class="nav-link active" href="#home" style="color: rgb(255,255,255);font-weight: bold;">HOME</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#about" style="color: rgb(255,255,255);font-weight: bold;">ABOUT</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#services" style="color: rgb(255,255,255);font-weight: bold;">SERVICES</a></li>
@@ -96,9 +99,15 @@
                     <li class="nav-item"><a class="nav-link active" href="#team" style="color: rgb(255,255,255);font-weight: bold;">TEAM</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#tokenization" style="color: rgb(255,255,255);font-weight: bold;">TOKENIZATION</a></li>
                     <li class="nav-item"><a class="nav-link active" href="#roadmap" style="color: rgb(255,255,255);font-weight: bold;">ROADMAP</a></li>
-                    <li class="nav-item"><a class="nav-link active d-xxl-flex" href="#" style="color: rgb(255,255,255);font-weight: bold;">CONTACT</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#" style="color: rgb(255,255,255);font-weight: bold;">CONTACT</a></li>
+                    <li id="login-button-top" class="nav-item">
+                        <a class="nav-link active" href="http://bot.plutusfi.io/app/login/" style="color: rgb(255,255,255);font-weight: bold;">
+                            <i class="fa fa-user"></i>&nbsp;&nbsp;
+                            <span>LOGIN</span>
+                        </a>
+                    </li>
                 </ul>
-                <span id="login-button-top" class="navbar-text actions"><a class="btn btn-light d-xxl-flex justify-content-xxl-center align-items-xxl-center action-button" role="button" href="http://bot.plutusfi.io/app/login/" style="background: rgba(86,198,198,0);border-radius: 5px;border: 1px solid rgb(255,255,255);font-weight: bold;width: 150px;"><i class="fa fa-user"></i>&nbsp;LOGIN</a></span>
+                <!-- <span id="login-button-top" class="navbar-text actions"><a class="btn btn-light d-xxl-flex justify-content-xxl-center align-items-xxl-center action-button" role="button" href="http://bot.plutusfi.io/app/login/" style="background: rgba(86,198,198,0);border-radius: 5px;border: 1px solid rgb(255,255,255);font-weight: bold;width: 150px;"><i class="fa fa-user"></i>&nbsp;LOGIN</a></span> -->
             </div>
         </div>
     </nav><!-- End: Navigation with Button -->
