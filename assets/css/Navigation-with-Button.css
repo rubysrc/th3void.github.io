@@ -17,9 +17,9 @@
 }
 
 #menu-top-ul {
-  /* display: flex;
+  display: flex;
   width: 100%;
-  justify-content: flex-end; */
+  justify-content: flex-end;
 }
 
 #menu-top-ul li a {
